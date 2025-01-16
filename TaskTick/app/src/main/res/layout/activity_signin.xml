@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+    tools:context=".Signin">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="413dp"
+        android:layout_height="898dp"
+        app:layout_constraintBottom_toBottomOf="@id/editTextText47"
+        app:layout_constraintEnd_toEndOf="@id/editTextText46"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="@id/loginBtn"
+        app:layout_constraintTop_toTopOf="@id/editTextText47"
+        app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@drawable/s" />
+
+    <EditText
+        android:id="@+id/editTextText47"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/text_box"
+        android:backgroundTint="#9AFFFFFF"
+        android:ems="10"
+        android:hint="  Enter your email"
+        android:inputType="text"
+        android:paddingStart="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#33372C"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <EditText
+        android:id="@+id/editTextText46"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/text_box"
+        android:backgroundTint="#8BFFFFFF"
+        android:ems="10"
+        android:hint="  Password"
+        android:inputType="text"
+        android:paddingStart="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#33372C"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="199dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#153448"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="391dp"
+        android:layout_height="170dp"
+        android:text="&quot;Log in to access your personalized reminders and stay organized. Manage tasks, set notifications, and track important deadlines—all in one place. Secure and quick access to help you stay productive every day.&quot;"
+        android:textAlignment="center"
+        android:textColor="#F320242D"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.595" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

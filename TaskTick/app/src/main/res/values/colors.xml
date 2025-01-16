@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_background">#5C5F61</color>
+    <color name="textbox_tint">#A3F6F5F5</color>
+    <color name="white_bg">#F6F5F5</color>
+    <color name="black_text">#20242D</color>
+    <color name="content_color">#FCF300</color>
+    <color name="primary_color">#164863</color>
+    <color name="background_tint_light">#A3F6F5F5</color>
+    <color name="background_tint_dark">#A7D6EB</color>
+    <color name="error_color">#F320242D</color>
+    <color name="input_field_color">#8BFFFFFF</color>
+</resources>
